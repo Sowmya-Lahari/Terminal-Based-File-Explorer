@@ -15,4 +15,15 @@ This mode is used to navigate the file system using specific keys. This is the d
 - Goto home when h key is pressed
 
 ### 2. Command mode
-In this mode the user can type
+In this mode the user can type the allowed commandsto perform actions. The command bar is at the bottom of the terminal. To enter command mode the user has to press : key. Below are the functionalities supported by command mode
+- Copy, Move files and directories
+- Rename a file
+- Create and delete a file and directory
+- Goto a specific location
+- Search a file and directory
+- To go back to normal mode ESC key should be pressed
+
+
+#### TODO
+- Handle window resizing
+- Update the terminal content when actions are performed in Command mode
